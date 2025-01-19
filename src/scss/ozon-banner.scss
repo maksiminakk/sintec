@@ -1,0 +1,42 @@
+.shop-banner {
+    background-color: $blue;
+    padding: 60px 0;
+    @media(max-width:767px) {
+        border-radius: 10px 10px 0 0;
+        padding: 50px 0;
+    }
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+        @media(max-width:767px) {
+            gap: 30px;
+            flex-direction: column;
+        }
+    }
+
+    &__title {
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: $white;
+        @media(max-width:767px) {
+            font-size: 26px;
+            text-align: center;
+            line-height: 130%;
+            font-weight: 400;
+        }
+    }
+
+    &__button {
+        flex: 0 1 427px;
+        @media(max-width:767px) {
+            flex: auto;
+        }
+    }
+}
+

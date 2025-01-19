@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название</title>
+    <meta name="description" content="Описание">
+    <meta name="keywords" content="Ключевики">
+    <meta name="author" content="Автор">
+    <meta name="image" content="img/logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Название">
+    <meta property="og:description" content="Описание">
+    <meta property="og:image" content="img/logos/logo.svg">
+    <meta property="og:url" content="https://example.com">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/manifest.json">
+    <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-title" content="Название">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20250119102439" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20250119102439">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__container container">
+        <div class="header__body">
+            <div class="header__logo">
+                <svg class="icon">
+                    <use xlink:href="img/icons/sprite.svg#logo"></use>
+                </svg>
+            </div>
+            <div class="header__menu menu">
+                <nav class="menu__nav">
+                    <ul class="menu__list">
+                        <li>
+                            <a href="#" data-goto=".technologies" class="menu__link">
+                                Технологии
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-goto=".compound" class="menu__link">
+                                Составы
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-goto=".tests" class="menu__link">
+                                Тесты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <button type="button" class="header__burger-icon">
+            </button>
+        </div>
+    </div>
+</header>
+         <main class="main">
+            <section class="intro _anim-items _anim-no-hide">
+    <div class="intro__bg">
+        <picture><source srcset="img/intro.webp" type="image/webp"><img src="img/intro.jpg" alt="intro"></picture>
+    </div>
+    <div class="intro__bg-mobile">
+        <picture><source srcset="img/intro-mob.webp" type="image/webp"><img src="img/intro-mob.jpg" alt="intro"></picture>
+    </div>
+    <div class="intro__container container">
+        <div class="intro__body">
+            <div class="intro__image _anim-show">
+                <picture><source srcset="img/intro/oils.webp" type="image/webp"><img src="img/intro/oils.png" alt="oils"></picture>
+            </div>
+            <div class="intro__content">
+                <div class="intro__text">
+                    <h1 class="intro__title _anim-show">
+                        SINTEC
+                    </h1>
+                    <div class="intro__label _anim-show">
+                        всегда умный выбор
+                    </div>
+                </div>
+                <div class="intro__image-modile _anim-show">
+                    <picture><source srcset="img/intro/oils-mob.webp" type="image/webp"><img src="img/intro/oils-mob.png" alt="oils"></picture>
+                </div>
+                <div class="intro__bottom">
+                    <div class="intro__bottom-body">
+                        <a href="#" class="intro__button ozon-btn _anim-show">
+                            купить на OZON
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="banner">
+    <div class="banner__bg">
+        <picture><source srcset="img/banner/bg.webp" type="image/webp"><img src="img/banner/bg.png" alt="bg"></picture>
+    </div>
+    <div class="banner__bg-mob">
+        <picture><source srcset="img/banner/bg-mob.webp" type="image/webp"><img src="img/banner/bg-mob.png" alt="bg"></picture>
+    </div>
+    <div class="banner__container">
+        <div class="banner__body _anim-items _anim-no-hide">
+            <div class="banner__item _anim-show">
+                <div class="banner__image">
+                    <img src="img/icons/branch.svg" alt="branch">
+                </div>
+                <div class="banner__title">
+                    <span>ТОП</span>
+                    <span>3</span>
+                </div>
+                <div class="banner__image banner__image_reverse">
+                    <img src="img/icons/branch.svg" alt="branch">
+                </div>
+            </div>
+            <p class="_anim-show">
+                В 2024 ГОДУ <br> SINTEC ВОШЁЛ В ТОП-3 <br> ПО ПРОДАЖАМ МОТОРНОГО МАСЛА НА OZОN
+            </p>
+        </div>
+    </div>
+</section>
+            <section class="technologies section">
+    <div class="technologies__container container">
+        <div class="technologies__body _anim-items _anim-no-hide">
+            <div class="technologies__info  _anim-items _anim-no-hide _anim-show ">
+                <h2 class="technologies__title title">
+                    Четыре уникальные технологии
+                </h2>
+                <p>
+                    в зависимости от требований <br> к функциям моторного масла
+                </p>
+            </div>
+            <div class="technologies__content" data-spollers>
+                <div class="technologies__item _anim-items _anim-show _anim-no-hide technologies-item">
+                    <div class="technologies-item__bg">
+                        <img src="img/technologies/dots.svg" alt="dots">
+                    </div>
+                    <div data-spoller class="technologies-item__top">
+                        <div class="technologies-item__left">
+                            <div class="technologies-item__image">
+                                <picture><source srcset="img/technologies/UltraSynth.webp" type="image/webp"><img src="img/technologies/UltraSynth.png" alt="UltraSynth"></picture>
+                            </div>
+                            <div class="technologies-item__info">
+                                <div class="technologies-item__label">
+                                    Технология
+                                </div>
+                                <h3 class="technologies-item__title">
+                                    UltraSynth
+                                </h3>
+                                <div class="technologies-item__text">
+                                    <!-- <svg class="icon">
+                                        <use xlink:href="img/icons/sprite.svg#pao"></use>
+                                    </svg> -->
+                                    <img src="img/icons/pao.svg" alt="">
+                                    с PAO / PAO+AN
+                                </div>
+                            </div>
+                        </div>
+                        <div class="technologies-item__right">
+                            <div class="technologies-item__product technologies-item-product">
+                                <div class="technologies-item-product__text">
+                                    <span>
+                                        PREMIUM 9000
+                                    </span>
+                                </div>
+                                <div class="technologies-item-product__image">
+                                    <picture><source srcset="img/technologies/Platinum9000.webp" type="image/webp"><img src="img/technologies/Platinum9000.png" alt="Platinum9000"></picture>
+                                </div>
+                            </div>
+                            <div class="technologies-item__button">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technologies-item__content technologies-item-content">
+                        <div class="technologies-item-content__wrapper">
+                            <div class="technologies-item-content__body">
+                                <div class="technologies-item-content__label">
+                                    PAO (полиальфаолефиновое базовое масло) + <br> AN (алкилированные нафталины)
+                                </div>
+                                <div class="technologies-item-content__about-items">
+                                    <div class="technologies-item-content__about">
+                                        <div class="technologies-item-content__image">
+                                            <span>PAO</span>
+                                            <picture><source srcset="img/technologies/pao.webp" type="image/webp"><img src="img/technologies/pao.png" alt=""></picture>
+                                        </div>
+                                        <p>
+                                            Обеспечивает эффективную работу при экстремальных температурах
+                                        </p>
+                                    </div>
+                                    <div class="technologies-item-content__about">
+                                        <div class="technologies-item-content__image">
+                                            <span>AN</span>
+                                            <picture><source srcset="img/technologies/an.webp" type="image/webp"><img src="img/technologies/an.png" alt=""></picture>
+                                        </div>
+                                        <p>
+                                            Усиливают действие
+                                            противоизносных присадок, защищают от коррозии, отложений и угара
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="technologies-item-content__row technologies-item-content__row_many-columns">
+                                    <div
+                                        class="technologies-item-content__card technologies-item-content-card technologies-item-content-card_row">
+                                        <div class="technologies-item-content-card__title">
+                                            <span>до </span> <span>30<p>%</p></span>
+                                        </div>
+                                        <p>
+                                            продлевает ресурс двигателя
+                                        </p>
+                                    </div>
+                                    <div class="technologies-item-content__card technologies-item-content-card">
+                                        <div class="technologies-item-content-card__icon">
+                                            <img src="img/icons/check-car.svg" alt="check">
+                                        </div>
+                                        <div class="technologies-item-content-card__label">
+                                            КОМПЛЕКС PAO + AN <br> в моторных маслах
+                                        </div>
+                                        <p>
+                                            демонстрирует наилучшие характеристики
+                                        </p>
+                                    </div>
+                                    <div class="technologies-item-content__card technologies-item-content-card">
+                                        <div class="technologies-item-content-card__icon">
+                                            <img src="img/icons/time.svg" alt="">
+                                        </div>
+                                        <p>
+                                            эффективная работа на больших интервалах
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="technologies-item-content__lists technologies-item-content-lists">
+                                    <div class="technologies-item-content-lists__item">
+                                        <div class="technologies-item-content-lists__title">
+                                            Для кого:
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                кто ищет качественное премиальное масло для своего автомобиля
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="technologies-item-content-lists__item">
+                                        <div class="technologies-item-content-lists__title">
+                                            Для каких авто:
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                для высокофорсированных <br> современных двигателей
+                                            </li>
+                                            <li>
+                                                для спортивных моторов
+                                            </li>
+                                            <li>
+                                                для силовых агрегатов <br> с турбонаддувом
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a href="#" class="technologies-item-content__button ozon-btn ozon-btn_small">
+                                    купить на OZON
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="technologies__item _anim-items _anim-show _anim-no-hide technologies-item technologies-item_white">
+                    <div class="technologies-item__bg">
+                        <img src="img/technologies/dots.svg" alt="dots">
+                    </div>
+                    <div data-spoller class="technologies-item__top">
+                        <div class="technologies-item__left">
+                            <div class="technologies-item__image">
+                                <picture><source srcset="img/technologies/molyguard.webp" type="image/webp"><img src="img/technologies/molyguard.png" alt="molyguard"></picture>
+                            </div>
+                            <div class="technologies-item__info">
+                                <div class="technologies-item__label">
+                                    Технология
+                                </div>
+                                <h3 class="technologies-item__title">
+                                    MolyGuard
+                                </h3>
+                                <div class="technologies-item__text technologies-item__text_ttu-none">
+                                    <svg class="icon">
+                                        <use xlink:href="img/icons/sprite.svg#mg-molecule"></use>
+                                    </svg>
+                                    с органическим молибденом
+                                </div>
+                            </div>
+                        </div>
+                        <div class="technologies-item__right">
+                            <div class="technologies-item__product technologies-item-product">
+                                <div class="technologies-item-product__text">
+                                    <span>
+                                        PLATINUM 7000
+                                    </span>
+                                </div>
+                                <div class="technologies-item-product__image">
+                                    <picture><source srcset="img/technologies/Platinum7000.webp" type="image/webp"><img src="img/technologies/Platinum7000.png" alt="Platinum7000"></picture>
+                                </div>
+                            </div>
+                            <div class="technologies-item__button">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technologies-item__content technologies-item-content">
+                        <div class="technologies-item-content__wrapper">
+                            <div class="technologies-item-content__body">
+                                <div class="technologies-item-content__about-items">
+                                    <div class="technologies-item-content__about">
+                                        <div class="technologies-item-content__image">
+                                            <picture><source srcset="img/technologies/membrane.webp" type="image/webp"><img src="img/technologies/membrane.png" alt=""></picture>
+                                        </div>
+                                        <p>
+                                            Органический молибден создаёт на деталях прочную защитную плёнку
+                                        </p>
+                                    </div>
+                                    <div class="technologies-item-content__about">
+                                        <div class="technologies-item-content__image">
+                                            <picture><source srcset="img/technologies/shield.webp" type="image/webp"><img src="img/technologies/shield.png" alt=""></picture>
+                                        </div>
+                                        <p>
+                                            Плёнка
+                                            противостоит износу
+                                            и увеличивает срок службы двигателя
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="technologies-item-content__row">
+                                    <div
+                                        class="technologies-item-content__card technologies-item-content-card technologies-item-content-card_flex technologies-item-content-card_row">
+                                        <div class="technologies-item-content-card__title">
+                                            <span>до </span> <span>40<p>%</p></span>
+                                        </div>
+                                        <p>
+                                            снижает износ двигателя
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="technologies-item-content__card technologies-item-content-card technologies-item-content-card_flex technologies-item-content-card_row">
+                                        <div class="technologies-item-content-card__title">
+                                            <span>до </span> <span>80<p>%</p></span>
+                                        </div>
+                                        <p>
+                                            снижает коэффициент трения
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="technologies-item-content__lists technologies-item-content-lists">
+                                    <div class="technologies-item-content-lists__item">
+                                        <div class="technologies-item-content-lists__title">
+                                            Для кого:
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                кто ездит в городском режиме
+                                            </li>
+                                            <li>
+                                                кто часто стоит в пробках
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="technologies-item-content-lists__item">
+                                        <div class="technologies-item-content-lists__title">
+                                            Для каких авто:
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                для широкого парка автомобилей. Универсальное
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a href="#" class="technologies-item-content__button ozon-btn ozon-btn_border ozon-btn_small">
+                                    купить на OZON
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="technologies__item _anim-items _anim-show _anim-no-hide technologies-item technologies-item_white">
+                    <div class="technologies-item__bg">
+                        <img src="img/technologies/dots.svg" alt="dots">
+                    </div>
+                    <div data-spoller class="technologies-item__top">
+                        <div class="technologies-item__left">
+                            <div class="technologies-item__image">
+                                <picture><source srcset="img/technologies/FlexiGuard.webp" type="image/webp"><img src="img/technologies/FlexiGuard.png" alt="FlexiGuard"></picture>
+                            </div>
+                            <div class="technologies-item__info">
+                                <div class="technologies-item__label">
+                                    Технология
+                                </div>
+                                <h3 class="technologies-item__title">
+                                    FlexiGuard
+                                </h3>
+                                <div class="technologies-item__text technologies-item__text_ttu-none">
+                                    <svg class="icon">
+                                        <use xlink:href="img/icons/sprite.svg#speed"></use>
+                                    </svg>
+                                    адаптивность с 1-й секунды
+                                </div>
+                            </div>
+                        </div>
+                        <div class="technologies-item__right">
+                            <div class="technologies-item__product technologies-item-product">
+                                <div class="technologies-item-product__text">
+                                    <span>
+                                        PLATINUM 7000
+                                    </span>
+                                </div>
+                                <div class="technologies-item-product__image">
+                                    <picture><source srcset="img/technologies/Platinum7000-2.webp" type="image/webp"><img src="img/technologies/Platinum7000-2.png" alt="Platinum7000"></picture>
+                                </div>
+                            </div>
+                            <div class="technologies-item__button">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technologies-item__content technologies-item-content">
+                        <div class="technologies-item-content__wrapper">
+                            <div class="technologies-item-content__body">
+                                <div class="technologies-item-content__about-items technologies-item-content__about-items_row">
+                                    <div class="technologies-item-content__about">
+                                        <div class="technologies-item-content__image">
+                                            <picture><source srcset="img/technologies/crystal.webp" type="image/webp"><img src="img/technologies/crystal.png" alt=""></picture>
+                                        </div>
+                                        <p>
+                                            Отлично адаптируется к экстремально низкими <br> высоким температурам, характерным климату России
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="technologies-item-content__row">
+                                    <div
+                                        class="technologies-item-content__card technologies-item-content-card technologies-item-content-card_flex technologies-item-content-card_row">
+                                        <div class="technologies-item-content__icon">
+                                            <img src="img/icons/weather.svg" alt="weather">
+                                        </div>
+                                        <p>
+                                            снижает износ двигателя
+                                        </p>
+                                    </div>
+                                    <div
+                                        class="technologies-item-content__card technologies-item-content-card technologies-item-content-card_flex technologies-item-content-card_row">
+                                        <div class="technologies-item-content__icon">
+                                            <img src="img/icons/mode.svg" alt="mode">
+                                        </div>
+                                        <p>
+                                            снижает коэффициент трения
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="technologies-item-content__lists technologies-item-content-lists">
+                                    <div class="technologies-item-content-lists__item">
+                                        <div class="technologies-item-content-lists__title">
+                                            Для кого:
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                кто живёт в переменчивых или экстремальных климатических условиях
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="technologies-item-content-lists__item">
+                                        <div class="technologies-item-content-lists__title">
+                                            Для каких авто:
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                для автомобилей с сажевым фильтром, требующих допуск СЗ
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a href="#" class="technologies-item-content__button ozon-btn ozon-btn_border ozon-btn_small">
+                                    купить на OZON
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="technologies__item _anim-items _anim-show _anim-no-hide technologies-item technologies-item_white technologies-item_grey">
+                    <div class="technologies-item__bg">
+                        <img src="img/technologies/dots.svg" alt="dots">
+                    </div>
+                    <div data-spoller class="technologies-item__top">
+                        <div class="technologies-item__left">
+                            <div class="technologies-item__image">
+                                <picture><source srcset="img/technologies/CleanAgent.webp" type="image/webp"><img src="img/technologies/CleanAgent.png" alt="CleanAgent"></picture>
+                            </div>
+                            <div class="technologies-item__info">
+                                <div class="technologies-item__label">
+                                    Технология
+                                </div>
+                                <h3 class="technologies-item__title">
+                                    CleanAgent
+                                </h3>
+                                <div class="technologies-item__text technologies-item__text_ttu-none">
+                                    <svg class="icon">
+                                        <use xlink:href="img/icons/sprite.svg#engine"></use>
+                                    </svg>
+                                    с высокими моющими свойствами
+                                </div>
+                            </div>
+                        </div>
+                        <div class="technologies-item__right">
+                            <div class="technologies-item__product technologies-item-product">
+                                <div class="technologies-item-product__text technologies-item-product__text_nowrap">
+                                    <span>
+                                        LUXE 5000
+                                    </span>
+                                </div>
+                                <div class="technologies-item-product__image">
+                                    <picture><source srcset="img/technologies/Luxe5000.webp" type="image/webp"><img src="img/technologies/Luxe5000.png" alt="Luxe5000"></picture>
+                                </div>
+                            </div>
+                            <div class="technologies-item__button">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="technologies-item__content technologies-item-content">
+                        <div class="technologies-item-content__wrapper">
+                            <div class="technologies-item-content__body">
+                                <div class="technologies-item-content__row">
+                                    <div
+                                        class="technologies-item-content__card technologies-item-content-card technologies-item-content-card_flex technologies-item-content-card_row">
+                                        <div class="technologies-item-content-card__title">
+                                            <span>до </span> <span>25<p>%</p></span>
+                                        </div>
+                                        <div class="technologies-item-content-card__right">
+                                            <p>
+                                                улучшает моющие свойства масла
+                                            </p>
+                                            <span>
+                                                выше требований отраслевых стандартов
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="technologies-item-content__card technologies-item-content-card technologies-item-content-card_flex technologies-item-content-card_row">
+                                        <div class="technologies-item-content__icon">
+                                            <img src="img/icons/engine.svg" alt="engine">
+                                        </div>
+                                        <p>
+                                            снижает коэффициент трения
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="technologies-item-content__lists technologies-item-content-lists">
+                                    <div class="technologies-item-content-lists__item">
+                                        <div class="technologies-item-content-lists__title">
+                                            Для кого:
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                кто ищет базовое моторное масло
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="technologies-item-content-lists__item">
+                                        <div class="technologies-item-content-lists__title">
+                                            Для каких авто:
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                для подержанных автомобилей, требующих высокие моющие свойства масла
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a href="#" class="technologies-item-content__button ozon-btn ozon-btn_border ozon-btn_small">
+                                    купить на OZON
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="compound">
+    <div class="compound__container container">
+        <div class="compound__body">
+            <div class="compound__content _anim-no-hide _anim-items">
+                <div class="compound__top _anim-show">
+                    <h2 class="compound__title title">
+                        высокотехнологичные составы
+                    </h2>
+                    <p>
+                        с использованием последних разработок международных компаний
+                    </p>
+                </div>
+                <div class="compound__row _anim-show">
+                    <div class="compound__item compound-item">
+                        <div class="compound-item__icon">
+                            <img src="img/icons/molecule.svg" alt="molecule">
+                        </div>
+                        <div class="compound-item__content">
+                            <h4 class="compound-item__title">
+                                ОРГАНИЧЕСКИЙ МОЛИБДЕН
+                            </h4>
+                            <p>
+                                с УСИЛЕННЫМИ противоизносными свойствами
+                            </p>
+                        </div>
+                    </div>
+                    <div class="compound__item compound-item">
+                        <div class="compound-item__icon">
+                            <img src="img/icons/molecule2.svg" alt="molecule">
+                        </div>
+                        <div class="compound-item__content">
+                            <h4 class="compound-item__title">
+                                PAO + AN
+                            </h4>
+                            <p>
+                                полностью синтетические
+                                базовые масла 4 и 5 групп
+                                последнего поколения
+                            </p>
+                        </div>
+                    </div>
+                    <div class="compound__item compound-item">
+                        <div class="compound-item__icon">
+                            <img src="img/icons/flask.svg" alt="flask">
+                        </div>
+                        <div class="compound-item__content">
+                            <h4 class="compound-item__title">
+                                ВЫСОКОЭФФЕКТИВНЫЕ ПРИСАДКИ
+                            </h4>
+                            <p>
+                                от лидеров
+                                мирового рынка
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="compound__banner ">
+                <div class="compound__bg">
+                    <video autoplay muted loop playsinline src="video/molecule.mp4"></video>
+                </div>
+                <div class="compound__icon  _anim-show _anim-no-hide _anim-items">
+                    <img src="img/icons/book.svg" alt="book">
+                </div>
+                <div class="compound__label _anim-show _anim-no-hide _anim-items">
+                    НА МАСЛА SINTEC ПОЛУЧЕНЫ ОФИЦИАЛЬНЫЕ ДОПУСКИ
+                    И ОДОБРЕНИЯ ЕВРОПЕЙСКИХ АВТОПРОИЗВОДИТЕЛЕЙ
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="compound__banner-bg">
+        <!-- <img src="img/dots.svg" alt="dots"> -->
+    </div>
+</section>
+            <section class="tests section"> 
+    <div class="tests__container container">
+        <div class="tests__body">
+            <div class="tests__top _anim-items _anim-show _anim-no-hide">
+                <h2 class="tests__title title">
+                    УСПЕШНЫЕ РЕЗУЛЬТАТЫ ТЕСТОВ
+                </h2>
+                <p>
+                    на автомобилях разных классов и стран производства
+                </p>
+            </div>
+            <div class="tests__content">
+                <div class="tests__slider slider _anim-items _anim-show _anim-no-hide">
+                    <div class="slider__item swiper">
+                        <div class="slider__wrapper swiper-wrapper">
+                            <div class="slider__slide swiper-slide">
+                                <div class="slider__top">
+                                    <div class="slider__left">
+                                        <div class="slider__title">
+                                            >100 000 км
+                                        </div>
+                                        <p>
+                                            пробега на масле SINTEC
+                                        </p>
+                                    </div>
+                                    <div class="slider__right">
+                                        <div class="slider__label">
+                                            Результат:
+                                        </div>
+                                        <p>
+                                            Высокие свойства проб масла на всем периоде эксплуатации
+                                        </p>
+                                        <div class="slider__buttons">
+                                            <a href="#popup3" class="slider__button button popup-link">
+                                                Результаты теста
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider__image">
+                                    <picture><source srcset="img/tests/01.webp" type="image/webp"><img src="img/tests/01.jpg" alt="tests-1"></picture>
+                                </div>
+                            </div>
+                            <div class="slider__slide swiper-slide">
+                                <div class="slider__top">
+                                    <div class="slider__left">
+                                        <h3 class="slider__subtitle slider__subtitle_small">
+                                            Исследования свежего и отработанного масла
+                                        </h3>
+                                    </div>
+                                    <div class="slider__right">
+                                        <div class="slider__label">
+                                            Результат:
+                                        </div>
+                                        <p>
+                                            Высокие свойства проб масла на всем периоде эксплуатации
+                                        </p>
+                                        <div class="slider__buttons">
+                                            <a href="#popup2" class="slider__button button popup-link">
+                                                Результаты теста
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider__image">
+                                    <picture><source srcset="img/tests/02.webp" type="image/webp"><img src="img/tests/02.jpg" alt="tests-2"></picture>
+                                </div>
+                            </div>
+                            <div class="slider__slide swiper-slide">
+                                <div class="slider__top">
+                                    <div class="slider__left">
+                                        <div class="slider__title">
+                                            >100 000 км
+                                        </div>
+                                        <p>
+                                            пробега на масле SINTEC
+                                        </p>
+                                    </div>
+                                    <div class="slider__right">
+                                        <div class="slider__label">
+                                            Результат:
+                                        </div>
+                                        <p>
+                                            Высокие свойства проб масла на всем периоде эксплуатации
+                                        </p>
+                                        <div class="slider__buttons">
+                                            <a href="#popup4" class="slider__button button popup-link">
+                                                Результаты теста свежего масла
+                                            </a>
+                                            <a href="#popup1" class="slider__button button popup-link">
+                                                Результаты теста отработанного масла
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider__image">
+                                    <picture><source srcset="img/tests/03.webp" type="image/webp"><img src="img/tests/03.jpg" alt="tests-3"></picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tests__menu tests-menu _anim-items _anim-show _anim-no-hide">
+                    <div class="tests-menu__item" data-index="0">
+                        <span class="tests-menu__text">На такси</span>
+                        <div class="tests-menu__progress-bar"><div class="progress"></div></div>
+                      </div>
+                      <div class="tests-menu__item" data-index="1">
+                        <span class="tests-menu__text">На китайских авто</span>
+                        <div class="tests-menu__progress-bar"><div class="progress"></div></div>
+                      </div>
+                      <div class="tests-menu__item" data-index="2">
+                        <span class="tests-menu__text">НЕЗАВИСИМЫЕ ЛАБОРАТОРНЫЕ ТЕСТЫ НА OIL.CLUB</span>
+                        <div class="tests-menu__progress-bar"><div class="progress"></div></div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="products">
+    <div class="products__container container">
+        <div class="products__body">
+            <div class="products__top _anim-items _anim-no-hide _anim-show">
+                <h2 class="products__title title">
+                    Широкий ассортимент
+                </h2>
+                <p>
+                    для любого автомобиля и бюджета потребителя
+                </p>
+            </div>
+            <div class="products__content products-content">
+                <div class="products__left _anim-items _anim-no-hide _anim-show">
+                    <div class="products-content__top">
+                        <div class="products-content__title">
+                            <span>19</span>
+                            <span>синтетических <br> масел</span>
+                        </div>
+                        <p>
+                            В т. ч. с официальными допускамии <br> и одобрениями европейских <br> и американских автопроизводителей
+                        </p>
+                    </div>
+                    <div class="products-content__row products-content__row_start">
+                        <div class="products-content__item products-item">
+                            <div class="products-item__image">
+                                <picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.png" alt="products-1"></picture>
+                            </div>
+                            <h3 class="products-item__title">
+                                PREMIUM <span>9000</span>
+                            </h3>
+                        </div>
+                        <div class="products-content__item products-item">
+                            <div class="products-item__image">
+                                <picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="products-2"></picture>
+                            </div>
+                            <h3 class="products-item__title">
+                                PLATINUM <span>7000</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__rigbht _anim-items _anim-no-hide _anim-show">
+                    <div class="products-content__top products-content__top_col">
+                        <div class="products-content__title">
+                            
+                            <span>3</span>
+                            <span>полусинтетических <br> масла</span>
+                        </div>
+                        <div class="products-content__label">
+                            в вязкостях 5w-30, 5w-40, 10w-40
+                        </div>
+                    </div>
+                    <div class="products-content__row">
+                        <div class="products-content__item products-item products-item_top">
+                            <div class="products-item__image">
+                                <picture><source srcset="img/products/03.webp" type="image/webp"><img src="img/products/03.png" alt="products-3"></picture>
+                            </div>
+                            <h3 class="products-item__title products-item__title_black">
+                                LUXE <span>5000</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="products__bottom">
+                Чем больше цифра, тем премиальнее масло
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="shop-banner">
+    <div class="shop-banner__container container">
+        <div class="shop-banner__body">
+            <h3 class="shop-banner__title">
+                купить на ozon прямо сейчас
+            </h3>
+            <a href="#" class="shop-banner__button ozon-btn ozon-btn_white">
+                купить на OZON
+            </a>
+        </div>
+    </div>
+</section>
+         </main>
+         <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__body">
+            <div class="footer__item">
+                <a href="tel:8 800 201-40-40" class="footer__link">
+                    8 800 201-40-40
+                </a>
+                <p>
+                    (24/7) | Бесплатный звонок по РФ
+                </p>
+            </div>
+            <div class="footer__logo">
+                <svg class="icon">
+                    <use xlink:href="img/icons/sprite.svg#logo"></use>
+                </svg>
+            </div>
+            <div class="footer__copy">  
+                © 2020–2024 АО «Синтек Групп»
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <div id="popup1" class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+             <picture><source srcset="img/docs/01.webp" type="image/webp"><img src="img/docs/01.jpg" alt="doc-1"></picture>
+        </div>
+    </div>
+    <button type="button" class="popup__close close-popup">
+        <img src="img/icons/close.svg" alt="close">
+    </button>
+</div>
+<div id="popup2" class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+             <picture><source srcset="img/docs/02.webp" type="image/webp"><img src="img/docs/02.jpg" alt="doc-1"></picture>
+        </div>
+    </div>
+    <button type="button" class="popup__close close-popup">
+        <img src="img/icons/close.svg" alt="close">
+    </button>
+</div>
+<div id="popup3" class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+             <picture><source srcset="img/docs/03.webp" type="image/webp"><img src="img/docs/03.jpg" alt="doc-1"></picture>
+        </div>
+    </div>
+    <button type="button" class="popup__close close-popup">
+        <img src="img/icons/close.svg" alt="close">
+    </button>
+</div>
+<div id="popup4" class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+             <picture><source srcset="img/docs/04.webp" type="image/webp"><img src="img/docs/04.jpg" alt="doc-1"></picture>
+        </div>
+    </div>
+    <button type="button" class="popup__close close-popup">
+        <img src="img/icons/close.svg" alt="close">
+    </button>
+</div>
+    <style>
+        #demonote {
+            display: none;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20250119102439"></script>
+    <script src="js/app.min.js?_v=20250119102439"></script>
+</body>
+
+</html>

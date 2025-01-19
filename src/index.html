@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+"title":"Главная"
+})
+
+<body>
+    <div class="wrapper">
+        @@include('html/header.html', {})
+         <main class="main">
+            @@include('html/intro.html', {})
+            @@include('html/banner.html', {})
+            @@include('html/technologies.html', {})
+            @@include('html/compound.html', {})
+            @@include('html/tests.html', {})
+            @@include('html/products.html', {})
+            @@include('html/ozon-banner.html', {})
+         </main>
+         @@include('html/footer.html', {})
+    </div>
+    @@include('html/popups.html', {})
+    <style>
+        #demonote {
+            display: none;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
